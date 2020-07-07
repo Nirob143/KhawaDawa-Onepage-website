@@ -1,0 +1,244 @@
+  
+/* Medium Layout: 1280px. 
+
+Standard Size: 970px
+Checking Size: 1000px
+
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+ 
+ .boundary {
+	width: 970px;
+}
+.welcome-content h2 {
+	font-size: 57px;
+}
+.menu {
+	width: 650px;
+}
+.menu ul li a {
+	padding: 10px 36px;
+}
+.welcome-content p {
+	font-size: 40px;
+}
+.about-info {
+	width: 650px;
+}
+.about-gallery img:nth-child(2) {
+display:none;
+}
+.single-menu {
+	width: 470px;
+}
+.single-special {
+	width: 310px;
+}
+.single-gallery {
+	width: 310px;
+}
+.pt-80 {
+	padding-top: 30px;
+}
+.pb-80 {
+	padding-bottom: 30px;
+}
+.single-blog {
+	width: 306px;
+	margin-top: 10px;
+}
+.single-help {
+	width: 435px;
+}
+.single-footer {
+	width: 227px;
+}
+
+
+
+}
+
+
+/* Tablet Layout: 768px. 
+
+Standard Size: 750px
+Checking Size: 800px
+
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.boundary{
+		width:750px;
+	}
+ .menu {
+	width: 490px;
+}
+.welcome-content p {
+	font-size: 38px;
+}
+.welcome-content h2 {
+	font-size: 45px;
+}
+.welcome-area {
+	height: 100%;
+}
+.about-info {
+	width: 430px;
+}
+.about-gallery img:nth-child(2) {
+	display:none;
+}
+.pt-80 {
+	padding-top: 30px;
+}
+.pb-80 {
+	padding-bottom: 30px;
+}
+.single-menu {
+	width: 360px;
+	text-align: center;
+}
+.single-special {
+	width: 236px;
+}
+.single-gallery {
+	width: 236px;
+}
+.single-blog {
+	width: 233px;
+}
+.single-help h1 {
+	font-size: 40px;
+	padding-left: 70px;
+}
+.single-help {
+	width: 312px;
+}
+.single-footer {
+	width: 172px;
+}
+	
+	
+}
+
+
+/* Mobile Layout: 320px.
+Standard Size: 320px
+Checking Size: 300px
+ */
+
+
+
+@media only screen and (max-width: 767px) {
+.boundary{
+	width:300px;
+}
+.logo {
+	width: 100%;
+	float: none;
+	margin-right: 0;
+}
+.menu {
+	float: none;
+	width: 100%;
+}
+.welcome-content a {
+	margin: 0 0;
+	margin-top: 20px;
+}
+.welcome-content p {
+	font-size: 25px;
+}
+.welcome-content h2 {
+	font-size: 30px;
+}
+.about-info {
+	float: none;
+	width: 100%;
+	margin-right: 0;
+}
+.about-gallery {
+	float: none;
+	width: 100%;
+	position: static;
+	margin-top: 10px;
+}
+.pb-80 {
+	padding-bottom: 10px;
+}
+.pt-80 {
+	padding-top: 10px;
+}
+.single-menu {
+	float: none;
+	width: 100%;
+	margin-top: 10px;
+}
+.food-box {
+	padding-left: 110px;
+	margin-bottom: 25px;
+}
+.discount-area .section-title p {
+	padding-top: 0;
+	font-size: 23px;
+}	
+.discount-area .section-title h4 {
+	font-size: 30px;
+	padding-bottom: 0;
+}	
+.single-special {
+	float: none;
+	width: 100%;
+	margin-right: 0;
+}
+.single-gallery {
+	float: none;
+	width: 100%;
+	margin-right: 0;
+}
+.single-blog {
+	float: none;
+	width: 100%;
+	margin-right: 0;
+}	
+.single-help {
+	float: none;
+	width: 100%;
+	margin-right: 0;
+}
+.single-help h1 {
+	font-size: 30px;
+	padding-bottom: 15px;
+	text-align: center;
+	padding-left:12px;
+}	
+.single-help ul li {
+	font-size: 15px;
+	text-align: center;
+}	
+.single-footer {
+	float: none;
+	width: 100%;
+	margin-right: 0;
+}	
+	
+}
+
+
+
+
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+}  
+  
+  
+  
+ 
